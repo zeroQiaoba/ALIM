@@ -32,8 +32,6 @@ Please cite our paper if you find our work useful for your research:
 
 2. For CUB200, PiCO provides a preprocessed copy at [link](https://drive.google.com/file/d/1KNMPuKT1q3a6zIEgStar2o4xjs_a3Kge/view?usp=sharing) and just put the files to dataset/CUB200/processed. See [link](https://github.com/hbzju/PiCO) for more details.
 
-
-
 ### Run ALIM on CIFAR-10 and CIFAR-100: 
 
 We provide shell codes for model training. We do not tune the optimal parameters. Adjust the learning rate, epochs, and the time to start applying DALI will achieve better performance.
@@ -54,8 +52,6 @@ python -u train_merge.py --seed=1 --save_root=savefinals --dataset=cifar100 --da
 More examples refer to example.sh
 ```
 
-
-
 ### Run ALIM on CUB-200 and CIFAR-100H: 
 
 ```
@@ -65,8 +61,6 @@ python -u train_merge.py --seed=1 --save_root=savefinals --dataset=cub200 --data
 2.Run CIFAR100H with q=0.5 \eta=0.2:
 python -u train_merge.py --seed=1 --save_root=savefinals --dataset=cifar100H --dataset_root=./dataset/CIFAR100 --partial_rate=0.5 --noise_rate=0.2 --epochs=1000 --encoder=resnet --lr=0.01 --lr_adjust=Case1 --optimizer=sgd --weight_decay=1e-3 --gpu=0 --piror_start 80 --max1
 ```
-
-
 
 ### Hyper-parameter tuning
 
