@@ -18,7 +18,7 @@ Please cite our paper if you find our work useful for your research:
 @article{xu2023alim,
   title={ALIM: Adjusting Label Importance Mechanism for Noisy Partial Label Learning},
   author={Xu, Mingyu and Lian, Zheng and Feng, Lei and Liu, Bin and Tao, Jianhua},
-  journal={NeurIPS},
+  journal={Advances in Neural Information Processing Systems (NeurIPS)},
   year={2023}
 }
 ```
