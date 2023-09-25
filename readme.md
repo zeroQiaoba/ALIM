@@ -10,7 +10,7 @@ Correspondence to:
 
 ## Paper
 [**ALIM: Adjusting Label Importance Mechanism for Noisy Partial Label Learning**](https://arxiv.org/pdf/2301.12077.pdf)<br>
-Mingyu Xu *, Zheng Lian *, Lei Feng, Bin Liu, Jianhua Tao [* Equal Contribution]<br>
+Mingyu Xu *, Zheng Lian *, Lei Feng, Bin Liu, Jianhua Tao [ * Equal Contribution]<br>
 
 Please cite our paper if you find our work useful for your research:
 
